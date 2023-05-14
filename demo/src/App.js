@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Footer';
 import Players from './Players';
 
 
@@ -8,6 +9,7 @@ function App(){
    <div className="App">
     <Navigation/> 
    <Players/>
+   <Footer/>
       </div>
 
  );
