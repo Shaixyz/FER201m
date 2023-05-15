@@ -55,14 +55,9 @@ button{
 }
 
 .header li a.active {
-  background-color: darkkhaki; 
+  background-color:goldenrod; 
 }
-.header{
-display: flex;
-list-style: none;
-background-color: black;
 
-}
 .container{
   column-count: 3; 
   column-gap: 100px;
@@ -82,7 +77,8 @@ background-color: black;
 }
 
 .footer{
-  background-color: darkkhaki;
+  
+  background-color: goldenrod;
 }
 .column img{
    max-width: 500px;
