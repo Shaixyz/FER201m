@@ -1,6 +1,6 @@
+/* App.css */
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -14,28 +14,24 @@
   }
 }
 
- button{
-   color: white;
-    width: 435px;
-    text-align: center;
-    padding: 5px;
-    background:  black;
-    
-} 
-.menu {
-  background-color: #f1f1f1;
-  padding: 10px;
-
+p.hover {
+  color: white;
+  width: 435px;
+  text-align: center;
+  padding: 1px;
+  background: black;
 }
 
 .header {
   list-style-type: none;
   margin: 0;
-  padding: 5;
+  padding: 5px;
   overflow: hidden;
   background-color: #333;
 }
-
+ul{
+  list-style:none;
+}
 .header li {
   float: left;
 }
@@ -48,22 +44,19 @@
   text-decoration: none;
 }
 
-.header li a:hover {
-  background-color: #111;
-}
-.card{
+
+
+.card {
   border: 1px solid white;
 }
 
 .header li a.active {
-  background-color:goldenrod; 
+  background-color: goldenrod;
 }
 
-.container{
-  column-count: 3; 
+.container {
+  column-count: 3;
   column-gap: 100px;
-  
-  
 }
 
 .App-header {
@@ -77,20 +70,23 @@
   color: white;
 }
 
-.footer{
-  
+.footer {
   background-color: goldenrod;
 }
-.column img{
-   max-width: 100%;
-  
+
+.column img {
+  max-width: 100%;
   padding-top: 10px;
 }
-.column{
+
+.column {
   display: flex;
   margin-right: 10px;
- 
-  
+}
+
+.switch-mode {
+  display: inline-block;
+  font-size: larger;
 }
 
 .overlay {
@@ -104,10 +100,12 @@
   visibility: hidden;
   opacity: 0;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
 }
+
 .popup {
   margin: 70px auto;
   padding: 5px;
@@ -117,12 +115,17 @@
   position: relative;
   transition: all 5s ease-in-out;
 }
-.popup img{ width: 100%;}
+
+.popup img {
+  width: 100%;
+}
+
 .popup h2 {
   margin-top: 0;
   color: white;
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -133,12 +136,15 @@
   text-decoration: none;
   color: #333;
 }
-.popup .close:hover {color: #06D85F;}
+
+.popup .close:hover {
+  color: #06d85f;
+}
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
-
 
 .App-link {
   color: #61dafb;
@@ -151,5 +157,4 @@
   to {
     transform: rotate(360deg);
   }
-  
 }

@@ -11,7 +11,7 @@ export default function DemoPlayers() {
                    <img src={player.img} alt='' />
                         <h3>{player.name}</h3>
                         <p className='title'></p>
-                        <p><button onClick={() => { setPlayer(player) }}><a href='#popup1' id='openPopUp'>Details</a></button></p>
+                        <p className='hover'><button onClick={() => { setPlayer(player) }}><a href='#popup1' id='openPopUp'>Details</a></button></p>
                     </div>
                 </div>
             ))}
